@@ -1,0 +1,210 @@
+## Plugins
+- ### ClassiCube Team / Official
+  - ##### [BinVoxImport](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/BinVoxImport.cs)
+    - Imports [binvox](http://www.patrickmin.com/binvox/) files from `extra/import` folder. BinVox is useful for voxelising .obj models.
+  - ##### [FootballInstruction](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/FootballInstruction.cs)
+    - Adds a bot AI instruction which allows kicking a bot around like a football.
+  - ##### [GoodlyEffects](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/GoodlyEffects.cs)
+    - Adds support for CustomParticles CPE. Documentation can be found [here](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/documentation/GoodlyEffects.md).
+![Preview](https://i.imgur.com/LAePRdm.png)
+  - ##### [KickJini](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/KickJini.cs)
+    - Prevents people using Jini client from logging in.
+  - ##### [KickNoCC](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/KickNoCC.cs)
+    - Only allows people using the ClassiCube client in Enhanced mode to login.
+  - ##### [LockedModel](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/LockedModel.cs)
+    - Forces players to only use specified model(s) on a map.
+  - ##### [LockedReach](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/LockedReach.cs)
+    - Restricts reach distance of players on a map.
+  - ##### [MagicaVoxelImport](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/MagicaVoxelImport.cs)
+    - Imports [MagicaVoxel](https://ephtracy.github.io/) files from `extra/import` folder.
+  - ##### [Marry](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Marry.cs)
+    - Allows you to show as married to another player in `/info`.
+  - ##### [no_tp_zs](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/no_tp_zs.cs)
+    - Prevents using `/tp` on maps that start with "zs".
+  - ##### [passjoin](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/passjoin.cs)
+    - Force players to enter a pre-defined password before they can play and talk. Change the password before compiling! This plugin is MUTUALLY EXCLUSIVE with admin verification.
+  - ##### [physicsexample](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/physicsexample.cs)
+    - Example plugin for custom block physics. Makes block 103 fall up (instantly on physics 1, gradually on higher levels).
+  - ##### [Rainbow](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Rainbow.cs)
+    - Makes the &r custom colour constantly change in rainbow pattern (you must define &r first)
+![Preview](https://i.imgur.com/Tf2AXAP.gif)
+  - ##### [Reward](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Reward.cs)
+    - Allows using `/Reward` in Message Blocks, which will give the player money when clicked on.
+  - ##### [SchematicImporter](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/SchematicImporter.cs)
+    - Imports [Schematic](https://minecraft.fandom.com/wiki/Schematic_file_format) files from `extra/import` folder.
+  - ##### [TeamChat](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/TeamChat.cs)
+    - Allows using *=message* as shortcut for */team message*.
+  - ##### [tp_control](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/tp_control.cs)
+    - Disables teleporting within -hax maps and adds +tp and -tp flags to MOTD.
+  - ##### [JScriptCompiler](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/JScriptCompiler.cs)
+    - Adds ability to write and compile plugins in Microsoft JScript.
+  - ##### [LowLatency](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/LowLatency.cs)
+    - Disables [Nagle's Algorithm](https://en.wikipedia.org/wiki/Nagle%27s_algorithm) using the LowLatency bool of a players socket
+  - ##### [MatrixRelayPlugin](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/MatrixRelayPlugin.cs)
+    - Adds a [Matrix](https://matrix.org) relay bot.
+  - ##### [RelayRoute](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/RelayRoute.cs)
+    - Relays chat to and from Discord <-> IRC
+  - ##### [TopReach](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/TopReach.cs)
+    - Disaplys users with the highest reach distance.
+  - ##### [TopTeam](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/TopTeam.cs)
+    - Displays the largest teams on the server.
+  - ##### [VisualBasicCompiler](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/VisualBasicCompiler.cs)
+    - Adds Visual Basic compiler
+  - ##### [playerclickexample](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/playerclickexample.cs)
+    - An example plugin showing how to handle the Player Click event.
+- ### Puissant Royal / Venk
+  - ##### [AntiVPN](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/AntiVPN.cs)
+    - Prevents players from joining on a detected VPN using getipintel.net
+  - ##### [BetterPing](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/BetterPing.cs)
+    - Disables [Nagle's Algorithm](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
+  - ##### [BugWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/BugWebhook.cs)
+    - Sends a Discord formatted Webhook when an error occurs on the server.
+  - ##### [CommandsInPluginExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CommandsInPluginExample.cs)
+    - An example plugin showing how to initialize a command from within a plugin.
+  - ##### [Compass](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Compass.cs)
+    - Displays a text-based compass on the [Status2 MessageType](https://wiki.vg/CPE#MessageTypes) line
+  - ##### [Crouching](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Crouching.cs)
+    - Adds the ability to faux crouch using a custom model, hotkey, and changing your maximum walk speed.
+  - ##### [CustomEventExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomEventExample.cs)
+    - An example plugin showing how to hook into MCGalaxy events to trigger functions.
+  - ##### [CustomSoftware](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomSoftware.cs)
+    - Adds the ability to change your servers's software name.
+  - ##### [CustomStats](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomStats.cs)
+    - Adds 2 TopStat's for custom use with other plugins.
+  - ##### [CustomTabList](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomTabList.cs)
+    - Allows you to customize the format of the player tab list in game.
+  - ##### [CustomWorldGen](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomWorldGen.cs)
+    - An exmaple plugin showing you how to load a custom world generator.
+  - ##### [DailyBonus](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DailyBonus.cs)
+    - A system for providing a daily login bonus to players.
+  - ##### [DayNightCycle](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DayNightCycle.cs)
+    - Simulates a day/night cycle by consistantly changing the Sky, Cloud, and Fog color.
+  - ##### [DisableCommands](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DisableCommands.cs)
+    - Disabled all commands except a list of specified ones on load.
+  - ##### [DiscordActionLog](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordActionLog.cs)
+    - Sends a Discord formatted webhook to a channel on moderator actions including the reason, if given.
+    - Currently shows: `/Freeze`, `/Kick`, `/Mute`, `/Warn`, `/TempBan`, `/Ban`
+  - ##### [DiscordChannelName](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordChannelName.cs)
+    - Edits a Discord channel name to display the current player count.
+  - ##### [DiscordNotify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordNotify.cs)
+    - Adds a command that can be used to notify/mention a Role on a Discord Channel
+  - ##### [DiscordVerify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordVerify.cs)
+    - Adds a system that allows users to cross-verify their Discord account with a player on your server for given them an automatic role in the Discord server.
+  - ##### [Example.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Example.cs)
+    - Simplified example plugin.
+  - ##### [Example.vb](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Example.vb)
+    - Simplified example plugin written in VisualBasic.
+  - ##### [ExampleStoreItem](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/ExampleStoreItem.cs)
+    - An example plugin showing how to add custom items to the in-game /Store
+  - ##### [FavouriteMap](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/FavouriteMap.cs)
+    - Allows you to set your own list of favorite maps
+  - ##### [GamemodeTemplate](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/GamemodeTemplate.cs)
+    - An example plugin showing how to create your own game mode.
+  - ##### [HoldBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/HoldBlocks.cs)
+    - Acompanying plugin to the HeldBlock model for showing what block another user is holding.
+  - ##### [IRCWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/IRCWebhook.cs)
+    - Displays chat on Discord as webhooks instead of just plain text. Shows the users CC forum avatar and username.
+  - ##### [LocationJoin](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/LocationJoin.cs)
+    - Shows a message displaying what country a user joined the server from based on their IP address.
+  - ##### [Lottery](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Lottery.cs)
+    - Adds a lottery system that uses in-game currency.
+  - ##### [MobAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/MobAI.cs)
+    - Adds additional botai instructions, such as: Drop, Hostile, Roam, Run, Smart, SmartHunt, Spleef, Tnt.
+  - ##### [NickBlocker](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/NickBlocker.cs)
+    - Blocks the usage of /whonick and /realname on specified worlds.
+  - ##### [Parties](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Parties.cs)
+    - Adds a party system.
+  - ##### [PlayerCount](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/PlayerCount.cs)
+    - Automatically increases or decreases the max player count upon players joining or leaving the server.
+  - ##### [PreventOPBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/PreventOPBlocks.cs)
+    - Prevents places from placing OP-level blocks.
+  - ##### [SessionPunishments](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/SessionPunishments.cs)
+    - Adds custom punishment commands. Currently just /mute
+  - ##### [SneakAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/SneakAI.cs)
+    - Adds custom PushAI action to BotAI which moves the bot closer to the nearest player.
+  - ##### [StaffEligibility](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/StaffEligibility.cs)
+    - Adds custom tokens for displaying if a user falls under certain requirements.
+  - ##### [Stopwatch.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Stopwatch.cs)
+    - Adds a stopwatch feature for timing things.
+  - ##### [TimeAFK](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/TimeAFK.cs)
+    - Adds a command to show how long you've been idle for.
+  - ##### [VenkLib](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/VenkLib.cs)
+    - Base library plugin for a lot of Venk's additions. Also adds the commands, `/Adventure`, `/Announce`, `/Boost`, `/ListLevels`, `/MoveEverything`, `/SilentHold`, `/SilentModel`
+  - ##### [VenksSurvival](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/VenksSurvival.cs)
+    - PvP Plugin created by Venk and Sirvoid.
+  - ##### [XP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/XP.cs)
+    - Adds an Experience-based leveling system to the server.
+  - ##### [\_PasswordManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/_PasswordManager.cs)
+    - Adds passwords required for using certain commands.
+- ### Not Awesome 2 / Goodly
+  - ##### [writefont](https://github.com/NotAwesome2/Plugins/blob/main/writefont/writefont.cs)
+    - This plugin was originally (and graciously) written by UnknownShadow200 for Not Awesome 2. In order for it to function, you must create the folder "extra/fonts" and place a font .png file inside. These font files are arranged like the ones that the client texture pack uses. An example font (the font used in the webclient) has been provided in the writefont folder. See /help writefont for in-game usage.
+![Preview](https://i.imgur.com/BIc5Ebt.png)
+  - ##### [cefcontainment](https://github.com/NotAwesome2/Plugins/blob/main/cefcontainment.cs)
+    - This plugin makes it so that only players who have permission to build in the map may use [cef](https://github.com/SpiralP/classicube-cef-loader-plugin) commands.
+    - Additional features:
+      - Adds /chat command, allows you to send to local chat without being in a local chat map
+      - Prefixing message with $$ sends it to local chat
+      - Only youtube and imgur are allowed in cef commands
+      - Cef click is disabled for security reasons
+      - Messages containing bad words aren't sent at all. OPs are informed what word they tried to use.
+  - ##### [nocefdm](https://github.com/NotAwesome2/Plugins/blob/main/nocefdm.cs)
+    - Disables cef from sending automatic DMs. This prevents users from automatically syncing cef screens when they join a map, which could be used to bypass cefcontainment.
+  - ##### [grc](https://github.com/NotAwesome2/Plugins/blob/main/grc.cs)
+    - This plugin adds /GotoRandomCool, which is like /gotorandom, but based on a curated list. The list can be managed with the /grc command.
+  - ##### [make](https://github.com/NotAwesome2/Plugins/blob/main/make.cs)
+    - This plugins adds /make and /makeGB, which allows you to quickly create shapes such as slabs, walls, and stairs, for the level you're in or the entire server.
+  - ##### [orderblocks](https://github.com/NotAwesome2/Plugins/blob/main/orderblocks.cs)
+    - This plugin makes ordering the block menu much easier. See `/help orderblocks` for usage. The top left of the inventory matches with 0, 0, 0 in the blockorder world. All blocks should have 1 block of air between them.
+  - ##### [tempbot](https://github.com/NotAwesome2/Plugins/blob/main/tempbot.cs)
+    - This plugin is complimentary to [Not-Awesome-Script](https://github.com/NotAwesome2/Not-Awesome-Script). It allows you to create clientside instances of bots to manipulate with scripted movements. See /help tempbot for more details.
+    - This plugin also comes with bonus /flipcoin and /movebots commands. See their /help for more info.
+  - ##### [ipnick](https://github.com/NotAwesome2/Plugins/blob/main/ipnick.cs)
+    - This plugin introduces an "IP nickname" to players, which allows anyone to identify accounts by IP without seeing the actual IP address.
+    - It is displayed in /whois and when the player logs in.
+  - ##### [nasgen](https://github.com/NotAwesome2/Plugins/blob/main/nasgen.cs)
+    - This plugin adds [Not-Awesome-Survival](https://github.com/NotAwesome2/Nas) style gen as a /newlvl gen option.
+  - ##### [\_extralevelprops](https://github.com/NotAwesome2/Plugins/blob/main/_extralevelprops.cs)
+    - This plugin adds the command `/mapext` which allows adding extra properties that are displayed in `/map`. These properties do not do anything on their own, but they can be read by other plugins to add functionality.
+  - ##### [CustomModels](https://github.com/NotAwesome2/MCGalaxy-CustomModels)
+    - Adds the ability to upload and manage custom player models.
+![Preview](https://i.imgur.com/lUftK8u.png)
+  - ##### [Not-Awesome-Script](https://github.com/NotAwesome2/Not-Awesome-Script)
+    - Scripting plugin made for Not Awesome 2.
+- ### WoCC / Opapinguin
+  - ##### [ActivityBot](https://github.com/opapinguin/MCGalaxy-plugins/blob/main/ActivityBot.cs)
+    - A bot that (periodically) mentions (pings) a Discord role if there's a threshold number of players online
+  - ##### [Teamchat](https://github.com/opapinguin/MCGalaxy-plugins/blob/main/TeamChat.cs)
+    - Implements the /teamchat command
+  - ##### [Stopwatch](https://github.com/opapinguin/MCGalaxy-plugins/blob/main/Stopwatch.cs)
+    - A stopwatch plugin, based on the original Upsurge stopwatch. To be used with messageblocks
+  - ##### [Animations](https://github.com/opapinguin/MCGalaxy-plugins/blob/main/Animations.cs)
+    - Comprehensive block animations
+![Preview](https://i.imgur.com/GNCBZFC.gif)
+  - ##### [Chatrooms](https://github.com/opapinguin/MCGalaxy-plugins/blob/main/Chatrooms.cs)
+    - An extension of teamchat, allowing for short-lived private chats
+- ### MCCH / Panda
+  - ##### [Apply](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Plugins/Apply.cs)
+    - Provide the user with a link to apply for a new server with MCCH.
+  - ##### [ReportPlugin](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Plugins/ReportPlugin.cs)
+    - Send an embedded report message to a specified Discord channel.
+    - This plugin works in correlation with MCGalaxy's built-in Discord-Relay.
+  - ##### [Staff](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Plugins/Staff.cs)
+    - Staff command to print out the staff ranks and members on the server above a threshold permission level.
+  - ##### [UnregisterCmds](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Plugins/UnregisterCmds.cs)
+    - Unregisters all the commands listed in the text/unregisteredCmds.txt file.
+- ### VeryUnfinishedServer - icanttellyou
+  - ##### [14a08gen](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/14a08gen.cs)
+    - A recration of MC Classic 0.0.14a_08's terrain generator using existing code as reference.
+  - ##### [15agen](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/15agen.cs)
+    - A recration of MC Classic 0.0.15a's terrain generator using existing code as reference.
+  - ##### [8ball2](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/8ball2.cs)
+    - A NA2 like version of /8ball
+  - ##### [Greentext](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/Greentext.cs)
+    - Plugin to make text green if the message starts with ">", originally came from The Build.
+  - ##### [alphagen](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/alphagen.cs)
+    - A port of Minecraft Alpha's terrain generator. Will NOT generate the same terrain using the same seeds.
+  - ##### [spleef](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/spleef.cs)
+    - A port of Supernova's spleef for MCGalaxy.
+  - ##### [whois2](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/whois2.cs)
+    - Alternate info command.
