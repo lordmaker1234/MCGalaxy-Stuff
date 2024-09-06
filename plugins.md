@@ -204,10 +204,6 @@
   - ##### [UnregisterCmds](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Plugins/UnregisterCmds.cs)
     - Unregisters all the commands listed in the text/unregisteredCmds.txt file.
 - ### VeryUnfinishedServer - icanttellyou
-  - ##### [14a08gen](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/14a08gen.cs)
-    - A recration of MC Classic 0.0.14a_08's terrain generator using existing code as reference.
-  - ##### [15agen](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/15agen.cs)
-    - A recration of MC Classic 0.0.15a's terrain generator using existing code as reference.
   - ##### [8ball2](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/8ball2.cs)
     - A NA2 like version of /8ball
   - ##### [Greentext](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/Greentext.cs)
@@ -216,5 +212,21 @@
     - A port of Minecraft Alpha's terrain generator. Will NOT generate the same terrain using the same seeds.
   - ##### [spleef](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/spleef.cs)
     - A port of Supernova's spleef for MCGalaxy.
-  - ##### [whois2](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/whois2.cs)
-    - Alternate info command.
+  - ##### [BetacraftV2Heartbeat.](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/BetacraftV2Heartbeat.cs)
+    - Plugin that implements Betacraft V2 heartbeat to list to the Betacraft V2 server list.
+  - ##### [LoginToLastPos](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/LoginToLastPosPlugin.cs)
+    - This plugin makes players login at their last position. This includes the map they were on and precise position and orientation.
+  - ##### [MessageConsent](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/MessageConsent.cs)
+    - Plugin that makes everyone require to confirm if they should see any message sent by anyone.
+  - ##### [Rainbow](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/Rainbow.cs)
+    - Improved version of the rainbow text plugin. The plugin uses color code r for rainbow text.
+  - ##### [ServerSettingCmd](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/ServerSettingCmdPlugin.cs)
+    - Plugin that adds commands to view and manage server settings from ingame.
+  - ##### [fancyvoronoigen](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/fancyvoronoigen.cs)
+    - An attempt to improve the Voronoi terrain generator in MCGalaxy to have terrain that doesn't consist of only cliffs
+  - ##### [nasgen](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/nasgen.cs)
+    - Edited version of NasGen, made for the ClassicalNuts server.
+  - ##### [preventDiscordBackdoor](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/preventDiscordBackdoor.cs)
+    - This plugin prevents any backdoors that people who have been banned from a server yet still are in discordcontrollers.txt to be able to abuse operator commands.
+  - ##### [usedCmdWarn](https://github.com/forkiesassds/MCGalaxy-Stuff/blob/master/usedCmdWarn.cs)
+    - Plugin that warns opchat when a command that is defined in plugins/warncmds.txt has been used
