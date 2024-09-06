@@ -13,8 +13,9 @@
   - ##### [CmdMapsBy](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdMapsBy.cs)
     - Lists all maps created by the given user.
   - ##### [CmdPruneDB](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdPruneDB.cs)
-    - !!! danger **Use at own risk!**
-    - !!! warning CAN BE USED TO PERMANENTLY DELETE BLOCK DB CHANGES BY A PLAYER
+    > **!!! Use at own risk! !!!**<br>
+    > CAN BE USED TO PERMANENTLY DELETE BLOCK DB CHANGES BY A PLAYER
+
     - Removes a player's entries from a level's BlockDB.
   - ##### [CmdSetSoftwareName](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdSetSoftwareName.cs)
     - Sets the name of the software shown in /sinfo and in the server list.
@@ -46,8 +47,9 @@
   - ##### [CmdFakeGive](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFakeGive.cs)
     - Fake give's another player in-game currency.
   - ##### [CmdFileManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFileManager.cs)
-    - !!! danger **Use at own risk!**
-    - !!! warning CAN BE USED TO DELETE SERVER FILES
+    > **!!! Use at own risk! !!!**<br>
+    > CAN BE USED TO DELETE SERVER FILES
+
     - Lists all files in a specified directory or deletes a specified file in a directory.
   - ##### [CmdFixTP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFixTP.cs)
     - Replaces any maps using a specified texture pack with another texture pack
@@ -62,12 +64,14 @@
   - ##### [CmdQuote](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdQuote.cs)
     - Selects snd displays a random quote from the quotes list.
   - ##### [CmdRemove](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdRemove.cs)
-    - !!! danger **Use at own risk!**
-    - !!! warning CAN BE USED TO DELETE ANY PLAYER'S INFORMATION
+    > **!!! Use at own risk! !!!**<br>
+    > CAN BE USED TO DELETE ANY PLAYER'S INFORMATION
+
     - Removes a player from the Player Database
   - ##### [CmdRemoveTable](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdRemoveTable.cs)
-    - !!! danger **Use at own risk!**
-    - !!! warning CAN BE USED TO DELETE ALL PLAYER INFORMATION OR TABLES IN THE DATABASE
+    > **!!! Use at own risk! !!!**<br>
+    > CAN BE USED TO DELETE ALL PLAYER INFORMATION OR TABLES IN THE DATABASE !!!
+    
     - Drops an entire table from the MCGalaxy database
   - ##### [CmdReward](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdReward.cs)
     - Gives you rewards after completing a task.
