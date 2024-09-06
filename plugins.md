@@ -160,6 +160,8 @@
     - Disables cef from sending automatic DMs. This prevents users from automatically syncing cef screens when they join a map, which could be used to bypass cefcontainment.
   - ##### [grc](https://github.com/NotAwesome2/Plugins/blob/main/grc.cs)
     - This plugin adds /GotoRandomCool, which is like /gotorandom, but based on a curated list. The list can be managed with the /grc command.
+  - ##### [kickoutdated](https://github.com/NotAwesome2/Plugins/blob/main/kickoutdated.cs)
+    - This plugin will prevent players from connecting if they are not using enhanced mode or are outdated. A relevant kick message will be displayed to the player. Players who are VIP will not be kicked (see /help vip).
   - ##### [make](https://github.com/NotAwesome2/Plugins/blob/main/make.cs)
     - This plugins adds /make and /makeGB, which allows you to quickly create shapes such as slabs, walls, and stairs, for the level you're in or the entire server.
   - ##### [orderblocks](https://github.com/NotAwesome2/Plugins/blob/main/orderblocks.cs)
