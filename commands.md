@@ -34,46 +34,46 @@
     - Used to lookup the ClassiCube account data of a specified user.
 ![Preview](https://i.imgur.com/YppJlcS.png)
 - ### Puissant Royale / Venk
-  - ##### [CmdAdventure](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdAdventure.cs)
+  - ##### [CmdAdventure](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdAdventure.cs)
     - Toggles adventure mode for a map.
-  - ##### [CmdAnnounce](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdAnnounce.cs)
+  - ##### [CmdAnnounce](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdAnnounce.cs)
     - Displays a message on your screen.
-  - ##### [CmdBestMaps](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdBestMaps.cs)
+  - ##### [CmdBestMaps](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdBestMaps.cs)
     - Teleports you to one of the best maps on the server.
-  - ##### [CmdBottom](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdBottom.cs)
+  - ##### [CmdBottom](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdBottom.cs)
     - Prints a list of players who have the least of a particular stat.
-  - ##### [CmdChevify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdChevify.cs)
+  - ##### [CmdChevify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdChevify.cs)
     - Replaces all blocks in a map with a random block from a list of blocks.
-  - ##### [CmdFakeGive](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFakeGive.cs)
+  - ##### [CmdFakeGive](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdFakeGive.cs)
     - Fake give's another player in-game currency.
-  - ##### [CmdFileManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFileManager.cs)
+  - ##### [CmdFileManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Helpers/CmdFileManager.cs)
     > **!!! Use at own risk! !!!**<br>
     > CAN BE USED TO DELETE SERVER FILES
 
     - Lists all files in a specified directory or deletes a specified file in a directory.
-  - ##### [CmdFixTP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdFixTP.cs)
+  - ##### [CmdFixTP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Helpers/CmdFixTP.cs)
     - Replaces any maps using a specified texture pack with another texture pack
-  - ##### [CmdImportSchematic](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdImportSchematic.cs)
+  - ##### [CmdImportSchematic](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdImportSchematic.cs)
     - Imports a .schematic file.
-  - ##### [CmdListLevels](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdListLevels.cs)
+  - ##### [CmdListLevels](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Helpers/CmdListLevels.cs)
     - Lists loaded levels and their physics levels.
-  - ##### [CmdMoveEverything](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdMoveEverything.cs)
+  - ##### [CmdMoveEverything](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdMoveEverything.cs)
     - Moves all bots/MBs/portals in the map you're in by a specified delta.
-  - ##### [CmdPreset](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdPreset.cs)
+  - ##### [CmdPreset](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdPreset.cs)
     - Adds an env preset to your map.
-  - ##### [CmdQuote](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdQuote.cs)
+  - ##### [CmdQuote](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdQuote.cs)
     - Selects snd displays a random quote from the quotes list.
-  - ##### [CmdRemove](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdRemove.cs)
+  - ##### [CmdRemove](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Helpers/CmdRemove.cs)
     > **!!! Use at own risk! !!!**<br>
     > CAN BE USED TO DELETE ANY PLAYER'S INFORMATION
 
     - Removes a player from the Player Database
-  - ##### [CmdRemoveTable](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdRemoveTable.cs)
+  - ##### [CmdRemoveTable](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Helpers/CmdRemoveTable.cs)
     > **!!! Use at own risk! !!!**<br>
     > CAN BE USED TO DELETE ALL PLAYER INFORMATION OR TABLES IN THE DATABASE !!!
     
     - Drops an entire table from the MCGalaxy database
-  - ##### [CmdReward](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/CmdReward.cs)
+  - ##### [CmdReward](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdReward.cs)
     - Gives you rewards after completing a task.
 - ### Not Awesome 2 / Goodly
   - ##### [Cmdadventure](https://github.com/NotAwesome2/Commands/blob/main/Cmdadventure.cs)
