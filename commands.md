@@ -93,8 +93,6 @@
     - A command forked and rewritten from MCDzienny so that players can start a vote to remove a player from the game for 1 hour.
   - ##### [CmdVoteKick](https://github.com/brycemthompson/McClassic-ClassiCube-Plugins-Cmds/blob/main/MCGalaxy/Commands/CmdVoteKick.cs)
     - A command forked and rewritten from MCDzienny so that players can start a vote to remove a player from the game.
-- ### VeryUnfinishedServer - icanttellyou
+- ### VeryUnfinishedServer / icanttellyou
   - ##### [CmdDecide](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/CmdDecide.cs)
     - Command for deciding on things, originally came from The Build, but this version has different wording.
-  - ##### [Cmdbeatparkour](https://github.com/forkiesassds/veryuninfishedserver-plugins-and-cmds/blob/master/Cmdbeatparkour.cs)
-    - Command used in message blocks at the end of some parkours.
