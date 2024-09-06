@@ -59,88 +59,90 @@
   - ##### [SecureSocket](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Protocols/SecureSocket.cs)
     - Adds Secure Websocket support.
 - ### Puissant Royal / Venk
-  - ##### [AntiVPN](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/AntiVPN.cs)
+  - ##### [AntiVPN](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/AntiVPN.cs)
     - Prevents players from joining on a detected VPN using getipintel.net
-  - ##### [BetterPing](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/BetterPing.cs)
+  - ##### [BetterPing](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/BetterPing.cs)
     - Disables [Nagle's Algorithm](https://en.wikipedia.org/wiki/Nagle%27s_algorithm)
-  - ##### [BugWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/BugWebhook.cs)
+  - ##### [BugWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/BugWebhook.cs)
     - Sends a Discord formatted Webhook when an error occurs on the server.
-  - ##### [CommandsInPluginExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CommandsInPluginExample.cs)
+  - ##### [CommandsInPluginExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/CommandsInPluginExample.cs)
     - An example plugin showing how to initialize a command from within a plugin.
-  - ##### [Compass](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Compass.cs)
+  - ##### [Compass](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/Compass.cs)
     - Displays a text-based compass on the [Status2 MessageType](https://wiki.vg/CPE#MessageTypes) line
-  - ##### [Crouching](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Crouching.cs)
+  - ##### [Crouching](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/Crouching.cs)
     - Adds the ability to faux crouch using a custom model, hotkey, and changing your maximum walk speed.
-  - ##### [CustomEventExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomEventExample.cs)
+  - ##### [CustomEventExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/CustomEventExample.cs)
     - An example plugin showing how to hook into MCGalaxy events to trigger functions.
-  - ##### [CustomSoftware](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomSoftware.cs)
+  - ##### [CustomSoftware](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Customization/CustomSoftware.cs)
     - Adds the ability to change your servers's software name.
-  - ##### [CustomStats](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomStats.cs)
+  - ##### [CustomStats](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Customization/CustomStats.cs)
     - Adds 2 TopStat's for custom use with other plugins.
-  - ##### [CustomTabList](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomTabList.cs)
+  - ##### [CustomTabList](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Customization/CustomTabList.cs)
     - Allows you to customize the format of the player tab list in game.
-  - ##### [CustomWorldGen](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/CustomWorldGen.cs)
+  - ##### [CustomWorldGenExample](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/CustomWorldGenExample.cs)
     - An exmaple plugin showing you how to load a custom world generator.
-  - ##### [DailyBonus](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DailyBonus.cs)
+  - ##### [DailyBonus](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/DailyBonus.cs)
     - A system for providing a daily login bonus to players.
-  - ##### [DayNightCycle](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DayNightCycle.cs)
+  - ##### [DayNightCycle](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/DayNightCycle.cs)
     - Simulates a day/night cycle by consistantly changing the Sky, Cloud, and Fog color.
-  - ##### [DisableCommands](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DisableCommands.cs)
+  - ##### [DisableCommands](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/DisableCommands.cs)
     - Disabled all commands except a list of specified ones on load.
-  - ##### [DiscordActionLog](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordActionLog.cs)
+  - ##### [DiscordActionLog](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/DiscordActionLog.cs)
     - Sends a Discord formatted webhook to a channel on moderator actions including the reason, if given.
     - Currently shows: `/Freeze`, `/Kick`, `/Mute`, `/Warn`, `/TempBan`, `/Ban`
-  - ##### [DiscordChannelName](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordChannelName.cs)
+  - ##### [DiscordChannelName](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/DiscordChannelName.cs)
     - Edits a Discord channel name to display the current player count.
-  - ##### [DiscordNotify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordNotify.cs)
+  - ##### [DiscordNotify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/DiscordNotify.cs)
     - Adds a command that can be used to notify/mention a Role on a Discord Channel
-  - ##### [DiscordVerify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/DiscordVerify.cs)
+  - ##### [DiscordVerify](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/DiscordVerify.cs)
     - Adds a system that allows users to cross-verify their Discord account with a player on your server for given them an automatic role in the Discord server.
-  - ##### [Example.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Example.cs)
+  - ##### [Example.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/Example.cs)
     - Simplified example plugin.
-  - ##### [Example.vb](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Example.vb)
+  - ##### [Example.vb](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/Example.vb)
     - Simplified example plugin written in VisualBasic.
-  - ##### [ExampleStoreItem](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/ExampleStoreItem.cs)
+  - ##### [ExampleStoreItem](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/ExampleStoreItem.cs)
     - An example plugin showing how to add custom items to the in-game /Store
-  - ##### [FavouriteMap](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/FavouriteMap.cs)
+  - ##### [FavouriteMap](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/FavouriteMap.cs)
     - Allows you to set your own list of favorite maps
-  - ##### [GamemodeTemplate](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/GamemodeTemplate.cs)
+  - ##### [GamemodeTemplate](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Examples/GamemodeTemplate.cs)
     - An example plugin showing how to create your own game mode.
-  - ##### [HoldBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/HoldBlocks.cs)
+  - ##### [High5Consent](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/High5Consent.cs)
+    - Adds ability to highfive other players but requires consent to do so.
+  - ##### [HoldBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/HoldBlocks.cs)
     - Acompanying plugin to the HeldBlock model for showing what block another user is holding.
-  - ##### [IRCWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/IRCWebhook.cs)
+  - ##### [IRCWebhook](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/IRCWebhook.cs)
     - Displays chat on Discord as webhooks instead of just plain text. Shows the users CC forum avatar and username.
-  - ##### [LocationJoin](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/LocationJoin.cs)
+  - ##### [LocationJoin](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/LocationJoin.cs)
     - Shows a message displaying what country a user joined the server from based on their IP address.
-  - ##### [Lottery](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Lottery.cs)
+  - ##### [Lottery](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/Lottery.cs)
     - Adds a lottery system that uses in-game currency.
-  - ##### [MobAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/MobAI.cs)
+  - ##### [MobAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/MobAI.cs)
     - Adds additional botai instructions, such as: Drop, Hostile, Roam, Run, Smart, SmartHunt, Spleef, Tnt.
-  - ##### [NickBlocker](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/NickBlocker.cs)
+  - ##### [NickBlocker](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/NickBlocker.cs)
     - Blocks the usage of /whonick and /realname on specified worlds.
-  - ##### [Parties](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Parties.cs)
+  - ##### [Parties](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/Parties.cs)
     - Adds a party system.
-  - ##### [PlayerCount](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/PlayerCount.cs)
+  - ##### [PlayerCount](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/PlayerCount.cs)
     - Automatically increases or decreases the max player count upon players joining or leaving the server.
-  - ##### [PreventOPBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/PreventOPBlocks.cs)
+  - ##### [PreventOPBlocks](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/PreventOPBlocks.cs)
     - Prevents places from placing OP-level blocks.
-  - ##### [SessionPunishments](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/SessionPunishments.cs)
+  - ##### [SessionPunishments](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/SessionPunishments.cs)
     - Adds custom punishment commands. Currently just /mute
-  - ##### [SneakAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/SneakAI.cs)
+  - ##### [SneakAI](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/SneakAI.cs)
     - Adds custom PushAI action to BotAI which moves the bot closer to the nearest player.
-  - ##### [StaffEligibility](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/StaffEligibility.cs)
+  - ##### [StaffEligibility](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/StaffEligibility.cs)
     - Adds custom tokens for displaying if a user falls under certain requirements.
-  - ##### [Stopwatch.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Stopwatch.cs)
+  - ##### [Stopwatch.cs](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/Stopwatch.cs)
     - Adds a stopwatch feature for timing things.
-  - ##### [TimeAFK](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/TimeAFK.cs)
+  - ##### [TimeAFK](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/TimeAFK.cs)
     - Adds a command to show how long you've been idle for.
-  - ##### [VenkLib](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/VenkLib.cs)
+  - ##### [VenkLib](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/VenkLib.cs)
     - Base library plugin for a lot of Venk's additions. Also adds the commands, `/Adventure`, `/Announce`, `/Boost`, `/ListLevels`, `/MoveEverything`, `/SilentHold`, `/SilentModel`
-  - ##### [VenksSurvival](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/VenksSurvival.cs)
+  - ##### [VenksSurvival](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/VenksSurvival.cs)
     - PvP Plugin created by Venk and Sirvoid.
-  - ##### [XP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/XP.cs)
+  - ##### [XP](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Features/XP.cs)
     - Adds an Experience-based leveling system to the server.
-  - ##### [\_PasswordManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/_PasswordManager.cs)
+  - ##### [\_PasswordManager](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/Helpers/_PasswordManager.cs)
     - Adds passwords required for using certain commands.
 - ### Not Awesome 2 / Goodly
   - ##### [writefont](https://github.com/NotAwesome2/Plugins/blob/main/writefont/writefont.cs)
