@@ -2,12 +2,19 @@
 - ### ClassiCube Team / Official
   - ##### [CmdBiggestTables](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdBiggestTables.cs)
     - Lists the database tables with most rows. Unlikely to be useful except for debugging.
-  - ##### [CmdServerMap](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdCopyServerMap.cs)
-    - Copies a map from another server located on the same computer.
+  - ##### [Cmdccapi](https://gist.github.com/123DMWM/57103f407be3ea7bfc23a25b85e85792)
+    - Used to lookup the ClassiCube account data of a specified user.
+![Preview](https://i.imgur.com/YppJlcS.png)
+  - ##### [CmdExportDat](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdExportDat.cs)
+    - Saves current level to the /extra/dat/ folder as a .dat file
   - ##### [CmdGBInsert](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdGBInsert.cs)
     - Reorders a global block's position in the inventory.
   - ##### [CmdImpersonate](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdImpersonate.cs)
     - Fake a chat message as if it came from another player.
+  - ##### [CmdImportICraft](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdImportICraft.cs)
+    - Imports an iCraft map from the given folder
+  - ##### [CmdLevelMemEstimate](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdLevelMemEstimate.cs)
+    - Estimates how much memory is used by all of the currently loaded levels
   - ##### [CmdMapHack](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdMapHack.cs)
     - Allows you to bypass -hax on your own /os maps. (or ranks >= the extra permission)
   - ##### [CmdMapsBy](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdMapsBy.cs)
@@ -17,6 +24,8 @@
     > CAN BE USED TO PERMANENTLY DELETE BLOCK DB CHANGES BY A PLAYER
 
     - Removes a player's entries from a level's BlockDB.
+  - ##### [CmdServerMap](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdCopyServerMap.cs)
+    - Copies a map from another server located on the same computer.
   - ##### [CmdSetSoftwareName](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdSetSoftwareName.cs)
     - Sets the name of the software shown in /sinfo and in the server list.
   - ##### [CmdTempBlock](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdTempBlock.cs)
@@ -24,15 +33,6 @@
   - ##### [CmdZoneInfo](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdZoneInfo.cs)
     - Shows some information of a specified zone as well as visually highlighting it in-game.
 ![Preview](https://i.imgur.com/GaNbigf.png)
-  - ##### [CmdExportDat](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdExportDat.cs)
-    - Saves current level to the /extra/dat/ folder as a .dat file
-  - ##### [CmdImportICraft](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdImportICraft.cs)
-    - Imports an iCraft map from the given folder
-  - ##### [CmdLevelMemEstimate](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/CmdLevelMemEstimate.cs)
-    - Estimates how much memory is used by all of the currently loaded levels
-  - ##### [Cmdccapi](https://gist.github.com/123DMWM/57103f407be3ea7bfc23a25b85e85792)
-    - Used to lookup the ClassiCube account data of a specified user.
-![Preview](https://i.imgur.com/YppJlcS.png)
 - ### Puissant Royale / Venk
   - ##### [CmdAdventure](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Commands/Features/CmdAdventure.cs)
     - Toggles adventure mode for a map.
