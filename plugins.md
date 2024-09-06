@@ -52,6 +52,12 @@
     - Adds Visual Basic compiler
   - ##### [playerclickexample](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/playerclickexample.cs)
     - An example plugin showing how to handle the Player Click event.
+  - ##### [AlphaIndev](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Protocols/AlphaIndev.cs)
+    - Adds [Alpha 1.1.1](https://minecraft.wiki/w/Alpha_v1.1.1) and [Beta 1.7.3](https://minecraft.wiki/w/Beta_1.7.3) protocol support.
+  - ##### [Classic0015](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Protocols/Classic0015.cs)
+    - Adds Classic c0.0.15a protocol support.
+  - ##### [SecureSocket](https://github.com/ClassiCube/MCGalaxy-Plugins/blob/master/Protocols/SecureSocket.cs)
+    - Adds Secure Websocket support.
 - ### Puissant Royal / Venk
   - ##### [AntiVPN](https://github.com/ddinan/classicube-stuff/blob/master/MCGalaxy/Plugins/AntiVPN.cs)
     - Prevents players from joining on a detected VPN using getipintel.net
