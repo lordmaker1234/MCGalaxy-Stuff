@@ -38,15 +38,15 @@ namespace PluginSpeedometer {
             Thread.Sleep(50);
 
             // Clear all CPE message lines
-            p.SendCpeMessage(CpeMessageType.BottomRight3, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.BottomRight2, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.BottomRight1, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.Status1, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.Status2, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.Status3, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.Announcement, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.BigAnnouncement, "", PersistentMessagePriority.High);
-            p.SendCpeMessage(CpeMessageType.SmallAnnouncement, "", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.BottomRight3, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.BottomRight2, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.BottomRight1, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.Status1, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.Status2, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.Status3, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.Announcement, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.BigAnnouncement, " ", PersistentMessagePriority.High);
+            p.SendCpeMessage(CpeMessageType.SmallAnnouncement, " ", PersistentMessagePriority.High);
         }
 
         public static void UpdatePlayer(Player p, string message) {
@@ -142,7 +142,7 @@ namespace PluginSpeedometer {
                 } else {
                     const string xyz = "&CX&AY&9Z";
                     p.SendCpeMessage(CpeMessageType.BottomRight3, string.Format("&S{0}[{1}]", GetDial(xyzavr), xyz));
-                    p.SendCpeMessage(CpeMessageType.BottomRight2, string.Format("{0:F3} &blocks/s 3s avg [{1}&S]", xyzavr, xyz));
+                    p.SendCpeMessage(CpeMessageType.BottomRight2, string.Format("{0:F3} &Sblocks/s 3s avg [{1}&S]", xyzavr, xyz));
                     p.SendCpeMessage(CpeMessageType.BottomRight1, string.Format("{0:F3} &Sblocks/s current [{1}&S]", xyzSpeed, xyz));
                 }
             } else {
